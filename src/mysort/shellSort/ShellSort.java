@@ -139,7 +139,7 @@ public class ShellSort {
 	}
 
 	public static void shellSort(int[] data) {
-		// 计算出最大的h值
+		//  计算出最大的h值
 		int h = 1;
 		while (h <= data.length / 3) {
 			h = h * 3 + 1;
