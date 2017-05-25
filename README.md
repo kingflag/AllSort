@@ -65,6 +65,11 @@ i = 3;   j = 7;   X=72
 
 
  以数组{26, 53, 67, 48, 57, 13, 48, 32, 60, 50 }为例，步长序列为{5,2,1} 
+
  初始化关键字： [26, 53, 67, 48, 57, 13, 48, 32, 60, 50 ]
 
  ![](https://github.com/kingflag/AllSort/blob/master/src/mysort/shellSort/shell-image.png)
+
+ 最后的排序结果：
+  
+13 26 32 48 48 50 53 57 60 67
