@@ -40,8 +40,7 @@ public class BucketSort {
 
 		buckets = null;
 	}
-	
-	
+
 	// 比较时间
 	public static void comparetime(Date begintime, Date endtime) {
 		try {
@@ -179,20 +178,11 @@ public class BucketSort {
 				77, 66, 89, 28, 45, 5, 86, 20, 122, 30, 123, 31, 34, 98, 60, 10, 99, 106, 79, 128, 127, 80, 12, 108,
 				107, 24, 0, 84, 26, 59, 140, 18, 40, 146, 17, 52, 109, 92, 74, 57, 46, 14, 88, 22, 38, 111, 19, 43 };
 
-		// System.out.printf("before sort:");
-		// for (i = 0; i < a.length; i++)
-		// System.out.printf("%d ", a[i]);
-		// System.out.printf("\n");
-
 		Date begintime = new Date();
 		bucketSort(a, a.length); // 桶排序
 		Date endtime = new Date();
 		comparetime(endtime, begintime);
 		System.out.println(Arrays.toString(a));
 
-		// System.out.printf("after sort:");
-		// for (i = 0; i < a.length; i++)
-		// System.out.printf("%d ", a[i]);
-		// System.out.printf("\n");
 	}
 }
