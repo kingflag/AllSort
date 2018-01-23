@@ -186,7 +186,7 @@ public class BubbleSort {
     Date begintime = new Date();
     sort(score);
     Date endtime = new Date();
-    comparetime(endtime, begintime);
+    comparetime(begintime, endtime);
     System.out.println(Arrays.toString(score));
   }
 }
